@@ -30,12 +30,7 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-    Theme Name: NewBiz
-    Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
+
 </head>
 
 <body>
@@ -47,8 +42,6 @@
     <div class="container">
 
       <div class="logo float-left">
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
         <a href="index.html" class="scrollto"><img src="img/logooficial.png" alt="" class="img-fluid"></a>
       </div>
 
@@ -68,7 +61,7 @@
               </li>
             </ul>
           </li>
-          <li class="drop-down"><a href="#">Contato</a>
+          <li class="drop-down"><a href="#contact">Contato</a>
             <ul>
               <li><a href="#">DDLIMP</a>
                 <li><a href="#">BG LOCAÇÕES</a>
@@ -114,10 +107,10 @@
       </div>
 
       <div class="intro-info">
-        <h2>Bem vindo ao<br><span >GRUPODDLIMP</span><br>desde 1994 deixando clientes satisfeitos!</h2>
+        <h2>Bem vindo ao<br><span>GRUPODDLIMP</span><br>desde 1994 deixando clientes satisfeitos!</h2>
         <div>
           <a href="#about" class="btn-get-started scrollto">Sobre</a>
-          <a href="#services" class="btn-services scrollto">Nossos serviços</a>
+          <a href="construcao.html" class="btn-services scrollto">Nossos serviços</a>
         </div>
       </div>
 
@@ -140,7 +133,7 @@
           <div class="col-lg-6 wow fadeInUp">
             <img src="img/Design sem nome (18).png" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+          <div style="text-align: justify;" class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
             <p>
               Em 1994 foi criado o <strong style="color: #00366f;">GRUPO DDLIMP</strong>, com a missão de atender as necessidades da população, conforme os anos foram passando precisou inovar-se e assim criou-se em 2006, a <strong style="color: #00366f;">DDMAR</strong>, e mais recentemente a <strong style="color: #00366f;">BG LOCAÇÕES</strong>, em 2013. As três empresas trabalhando sempre em conjunto para atender clientes de todos os portes. <br>
             </p>
@@ -407,7 +400,7 @@
             <div class="form">
               <div id="sendmessage">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
+              <form action="contactform/contactform.php" method="post" role="form" class="contactForm">
                 <div class="form-row">
                   <div class="form-group col-lg-6">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -419,7 +412,7 @@
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:8" data-msg="Please enter at least 8 chars of subject" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
@@ -429,6 +422,7 @@
                 <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
               </form>
             </div>
+            
           </div>
 
         </div>
@@ -509,8 +503,8 @@
     </div>
 
     <div class="container">
-      <div class="copyright" style="color: black;">
-        &copy; Copyright <strong style="color: black;">GRUPO DDLIMP</strong>. Todos os direitos reservados.
+      <div class="copyright" style="color: #fff;">
+        &copy; Copyright <strong style="color: #fff;">GRUPO DDLIMP</strong>. Todos os direitos reservados.
       </div>
     
     </div>
@@ -520,8 +514,8 @@
   ============================-->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <!-- Uncomment below i you want to use a preloader -->
-  <!-- <div id="preloader"></div> -->
+  <!-- pré carregador da pagina home abaixo  -->
+ <div id="preloader"></div>
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>

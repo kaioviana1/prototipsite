@@ -311,7 +311,8 @@ body {
     position: relative;
    /* background: url("../img/bannerservicos.png") center bottom no-repeat;*/
     background-size: cover;
-    padding: 100px 0 0 0;
+    padding: 0 0 0 0;
+    /* estava  padding: 100px 0 0 0; */
   }
   #intro-ddlimp {
     width: 100%;
@@ -1260,7 +1261,6 @@ body {
   /*--------------------------------------------------------------
   # Footer
   --------------------------------------------------------------*/
-  
   #footer {
     background: #00366f;
     padding: 0 0 30px 0;
@@ -1300,7 +1300,7 @@ body {
   #footer .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #007bff;
+    background: #00366f;
     color: #fff;
     line-height: 1;
     padding: 8px 0;
@@ -1371,7 +1371,7 @@ body {
   }
   
   #footer .footer-top .footer-newsletter input[type="submit"] {
-    background: #007bff;
+    background: #00366f;
     border: 0;
     width: 35%;
     padding: 6px 0;
@@ -1403,6 +1403,8 @@ body {
   #footer .credits a:hover {
     color: #f1f7ff;
   }
+
+
   
   /*--------------------------------------------------------------
   # Responsive Media Queries
